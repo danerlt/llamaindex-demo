@@ -1,0 +1,22 @@
+[project]
+name = "llamaindex-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix-otel>=0.6.1",
+    "arize-phoenix>=6.0.0",
+    "langfuse>=2.55.0",
+    "llama-index",
+    "llama-index-llms-openai-like>=0.3.0",
+    "llama-index-llms-openai>=0.3.2",
+    "llama-index-utils-workflow>=0.3.0",
+    "openinference-instrumentation-llama-index>=3.0.4",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "setuptools>=75.6.0",
+]

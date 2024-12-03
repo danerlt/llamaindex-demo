@@ -1,0 +1,4 @@
+OPENAI_API_KEY=sk-xxxx
+OPENAI_API_BASE=https://api.deepseek.com/v1
+MODEL=deepseek-coder
+PHOENIX_COLLECTOR_ENDPOINT=http://localhost:6006/v1/traces
